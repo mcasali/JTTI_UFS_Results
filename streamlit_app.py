@@ -62,17 +62,17 @@ def show_map(lake_id2, lake_name):
 
     with col1:
         st.write("T_GRND2D Plot")
-        image = Image.open(".Data/Plots/T_GRND2D/{}_T_GRND2D.png".format(plot_dic[lake_name]))
+        image = Image.open("./Data/Plots/T_GRND2D/{}_T_GRND2D.png".format(plot_dic[lake_name]))
         st.image(image)
 
     with col2:
         st.write("T2 Plot")
-        image = Image.open(".Data/Plots/T2/{}_T2.png".format(plot_dic[lake_name]))
+        image = Image.open("./Data/Plots/T2/{}_T2.png".format(plot_dic[lake_name]))
         st.image(image)
 
     with col3:
         st.write("TSK Plot")
-        image = Image.open(".Data/Plots/TSK/{}_TSK.png".format(plot_dic[lake_name]))
+        image = Image.open("./Data/Plots/TSK/{}_TSK.png".format(plot_dic[lake_name]))
         st.image(image)
 
 
